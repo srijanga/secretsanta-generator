@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.notthebest</groupId>
 	<artifactId>secretsanta</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>secretsanta</name>
 	<description>Secret Santa Matchmaking</description>
 
@@ -55,10 +55,10 @@
             <id>maven-releases</id>
             <url>http://54.234.199.233:8081/repository/maven-releases/</url>
         </repository>
-<!--         <snapshotRepository>
-            <id>maven-releases</id>
-            <url>http://54.234.199.233:8081/repository/maven-releases/</url>
-        </snapshotRepository> -->
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://54.234.199.233:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
 	<build>
